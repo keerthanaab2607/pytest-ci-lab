@@ -14,3 +14,6 @@ def test_composite_numbers(num):
     assert is_prime(num) is False
 def test_large_prime():
     assert is_prime(97) is True
+
+def test_large_composite():
+    assert is_prime(100) is False
