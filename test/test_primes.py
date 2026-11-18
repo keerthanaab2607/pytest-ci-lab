@@ -12,3 +12,5 @@ def test_prime_numbers(num):
 @pytest.mark.parametrize("num", [4, 9, 15, 25, 100])
 def test_composite_numbers(num):
     assert is_prime(num) is False
+def test_large_prime():
+    assert is_prime(97) is True
