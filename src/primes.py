@@ -1,5 +1,6 @@
 import math
 
+
 def is_prime(num: int) -> bool:
     if num < 2:
         return False
